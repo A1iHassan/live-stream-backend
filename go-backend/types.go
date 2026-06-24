@@ -13,7 +13,7 @@ type Room struct {
 	Tracks map[string]*webrtc.TrackLocalStaticRTP
 }
 
-type Participants struct {
+type Participant struct {
 	ID string
 	PublisherConn *webrtc.PeerConnection
 	SubscriberConn *webrtc.PeerConnection
